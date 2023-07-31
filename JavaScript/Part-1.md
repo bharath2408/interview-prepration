@@ -4,6 +4,6 @@
 
 1. What are the different data types present in javascript?.
 
-**_Note:_** To know the type of a JavaScript variable, we can use the typeof operator.
+Note: To know the type of a JavaScript variable, we can use the typeof operator.
 
 1.  Primitive data types
