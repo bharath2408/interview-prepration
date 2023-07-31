@@ -8,7 +8,7 @@
 
 1.  Primitive data types
 
-    - ** String : ** It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote
+    - **_String_** : It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote
 
     ```javascript
     var str = "Vivek Singh Bisht"; //using double quotes
