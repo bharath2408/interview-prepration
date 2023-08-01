@@ -101,6 +101,6 @@
 
 ## Explain Hoisting in javascript.
 
-    - Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
+- Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
 
-    ![Hoisting](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/406/original/Hoisting.png?1654851517)
+![Hoisting](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/406/original/Hoisting.png?1654851517)
