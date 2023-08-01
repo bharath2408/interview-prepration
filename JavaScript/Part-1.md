@@ -8,36 +8,42 @@
 
 1.  Primitive data types
 
-        - **_String_** : It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote
+    - **_String_** : It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote
 
-        **_Example:_**
+    **_Example:_**
 
-        ```javascript
-        var str = "Vivek Singh Bisht"; //using double quotes
-        var str2 = "John Doe"; //using single quotes
-        ```
+    ```javascript
+    var str = "Vivek Singh Bisht"; //using double quotes
+    var str2 = "John Doe"; //using single quotes
+    ```
 
-        - **_Number_** : It represents a number and can be written with or without decimals.
+    - **_Number_** : It represents a number and can be written with or without decimals.
 
-        **_Example:_**
+    **_Example:_**
 
-        ```javascript
-        var x = 3; //without decimal
-        var y = 3.6; //with decimal
-        ```
+    ```javascript
+    var x = 3; //without decimal
+    var y = 3.6; //with decimal
+    ```
 
-        - **_BigInt_** : This data type is used to store numbers which are above the limitation of the Number data type. It can store large integers and is represented by adding “n” to an integer literal.
+    - **_BigInt_** : This data type is used to store numbers which are above the limitation of the Number data type. It can store large integers and is represented by adding “n” to an integer literal.
 
-        **_Example:_**
+    **_Example:_**
 
-        ```javascript
-        var bigInteger = 234567890123456789012345678901234567890;
-        ```
+    ```javascript
+    var bigInteger = 234567890123456789012345678901234567890;
+    ```
 
-        - **_Boolean_** : It represents a logical entity and can have only two values : true or false. Booleans are generally used for conditional testing.
+    - **_Boolean_** : It represents a logical entity and can have only two values : true or false. Booleans are generally used for conditional testing.
 
-        **_Example:_**
+    **_Example:_**
 
-        ```javascript
-        var bigInteger = 234567890123456789012345678901234567890;
-        ```
+    ```javascript
+    var a = 2;
+    var b = 3;
+    var c = 2;
+    (a == b)(
+      // returns false
+      a == c
+    ); //returns true
+    ```
