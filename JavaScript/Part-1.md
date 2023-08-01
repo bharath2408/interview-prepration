@@ -104,3 +104,51 @@
 - Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
 
 ![Hoisting](https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/003/406/original/Hoisting.png?1654851517)
+
+- This means that irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
+
+**_Example 1_**:
+
+```javascript
+hoistedVariable = 3;
+console.log(hoistedVariable); // outputs 3 even when the variable is declared after it is initialized
+var hoistedVariable;
+```
+
+**_Example 2_**:
+
+```javascript
+hoistedFunction(); // Outputs " Hello world! " even when the function is declared after calling
+
+function hoistedFunction() {
+  console.log(" Hello world! ");
+}
+```
+
+**_Example 3_**:
+
+```javascript
+// Hoisting takes place in the local scope as well
+function doSomething() {
+  x = 33;
+  console.log(x);
+  var x;
+}
+doSomething(); // Outputs 33 since the local variable “x” is hoisted inside the local scope
+```
+
+**_Note_** - Variable initializations are not hoisted, only variable declarations are hoisted:
+
+```javascript
+var x;
+console.log(x); // Outputs "undefined" since the initialization of "x" is not hoisted
+x = 23;
+```
+
+**_Note_** - To avoid hoisting, you can run javascript in strict mode by using “use strict” on top of the code:
+
+```javascript
+"use strict";
+x = 23; // Gives an error since 'x' is not declared
+var x;
+```
